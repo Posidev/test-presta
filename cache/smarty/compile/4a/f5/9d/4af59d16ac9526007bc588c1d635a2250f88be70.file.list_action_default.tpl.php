@@ -1,0 +1,35 @@
+<?php /* Smarty version Smarty-3.1.14, created on 2013-12-12 07:39:55
+         compiled from "F:\wamp\www\presta1_5_6_1\admin\themes\default\template\helpers\list\list_action_default.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1498652a9684b1e4714-32593808%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '4af59d16ac9526007bc588c1d635a2250f88be70' => 
+    array (
+      0 => 'F:\\wamp\\www\\presta1_5_6_1\\admin\\themes\\default\\template\\helpers\\list\\list_action_default.tpl',
+      1 => 1384787396,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1498652a9684b1e4714-32593808',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'href' => 0,
+    'action' => 0,
+    'name' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_52a9684b208d78_37575491',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_52a9684b208d78_37575491')) {function content_52a9684b208d78_37575491($_smarty_tpl) {?>
+<a href="<?php echo $_smarty_tpl->tpl_vars['href']->value;?>
+" class="default" title="<?php echo $_smarty_tpl->tpl_vars['action']->value;?>
+" <?php if (isset($_smarty_tpl->tpl_vars['name']->value)){?>name="<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+"<?php }?>>
+	<img src="../img/admin/asterisk.gif" alt="<?php echo $_smarty_tpl->tpl_vars['action']->value;?>
+" />
+</a><?php }} ?>
